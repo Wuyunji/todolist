@@ -1,0 +1,7 @@
+#app{
+  width: 500px;
+  border: 1px solid black;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+}

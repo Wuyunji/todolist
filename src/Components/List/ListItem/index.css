@@ -1,0 +1,20 @@
+.todo-item{
+  position: relative;
+}
+
+.todo-item:hover{
+  font-size: 30px;
+  background-color: greenyellow;
+}
+
+.todo-item:hover .deleteBtn{
+  display: inline;
+}
+
+.deleteBtn{
+  position: absolute;
+  right: 0;
+  transform: translateY(50%);
+  display: none;
+}
+
